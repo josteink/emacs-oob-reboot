@@ -8,3 +8,9 @@
  confirm-nonexistent-file-or-buffer nil
  create-lockfiles nil
  mouse-wheel-progressive-speed nil)
+
+(electric-pair-mode 1)
+(defvar electric-pair-pairs '(
+			      ;;Make electric-pair-mode work on more brackets
+                              (?\{ . ?\});;Define braces
+                              ) )
