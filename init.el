@@ -8,3 +8,4 @@
 (load-file "lisp/prog-mode-changes.el")
 (load-file "lisp/vc-mode-changes.el")
 (load-file "lisp/whitespace-changes.el")
+(load-file "lisp/scrolling-changes.el")
