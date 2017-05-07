@@ -14,3 +14,5 @@
 			      ;;Make electric-pair-mode work on more brackets
                               (?\{ . ?\});;Define braces
                               ) )
+;;Show matching pairs of brackets
+(show-paren-mode t)
