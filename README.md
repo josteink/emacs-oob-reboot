@@ -78,7 +78,8 @@ Submitting improvements should be easy:
 
 1. Go scan *your* `.emacs`-file and find your essential customizations which you think should be a default.
 2. Fork this repo.
-3. Follow the existing conventions, and add your changes. 
+3. Follow the existing conventions, and add your changes. See
+   [CONTRIBUTING.org](./CONTRIBUTING.org).
 4. Submit a PR. In this PR you should try to make each customization/improvement an atomic commit, and maybe even a PR on its own. This will assist review.
 
 # anything else?

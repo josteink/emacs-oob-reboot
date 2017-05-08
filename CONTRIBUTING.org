@@ -1,0 +1,22 @@
+#+TITLE: Contributing
+
+/This is just a first draft, feel free to complete and/or modify it./
+
+** Pull Requests
+
+One concern at a time per request. This makes it easier to discuss it in
+the comments.
+
+** Issues
+
+Create an issue instead of a pull request when you either don't have any patch
+to offer or the proposed change seems at least a little dubious.
+
+** Coding Guidelines
+
+- Read http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html.
+- Yes it is 2017, yes we all have 30'' monitors, but please avoid very long
+  lines in the code you push.
+- No leading whitespaces.
+- No trailing whitespaces.
+- When the code doesn't speak for itself, comment it.
