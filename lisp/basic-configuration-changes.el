@@ -8,3 +8,6 @@
  confirm-nonexistent-file-or-buffer nil
  create-lockfiles nil
  mouse-wheel-progressive-speed nil)
+
+;;Show matching pairs of brackets
+(show-paren-mode t)
