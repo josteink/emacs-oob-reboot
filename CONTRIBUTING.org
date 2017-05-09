@@ -2,6 +2,18 @@
 
 /This is just a first draft, feel free to complete and/or modify it./
 
+** Goals
+
+Our goal is to help attract and keep new users by improving the Emacs out of the box
+(OOB) experience. Generally speaking, this means improving the default behaviours
+and aesthetic of Emacs to reduce the absolute need for "customizing" Emacs so that,
+on first launch, it can be considered a good/semi-intuitive tool by modern standards.
+
+As such, appropriate changes will be relatively
+lightweight and based largely on ~setq~ / ~defvar~ settings and well-established
+ELPA packages, while generally avoiding ~defun~. For further details and discussion,
+see: https://github.com/josteink/emacs-oob-reboot/issues/26
+
 ** Pull Requests
 
 One concern at a time per request. This makes it easier to discuss it in
