@@ -8,4 +8,6 @@
 
 (require 'prog-mode)
 (add-hook 'prog-mode-hook (lambda ()
-                            (company-mode 1)))
+			    (company-mode 1)))
+(add-hook 'prog-mode-hook (lambda ()
+			    (linum-mode 1)))
