@@ -11,3 +11,6 @@
  mouse-wheel-progressive-speed nil)
 
 (define-key global-map [remap list-buffers] 'ibuffer)
+
+;; Typed text will replace a highlighted region
+(delete-selection-mode 1)
