@@ -16,9 +16,8 @@
 ;; ...is this broken?
 (setq mac-emulate-three-button-mouse t)
 
-;; shift-select and delete-selection are standard is OS X inputs
-(setq shift-select-mode t) 
-(delete-selection-mode t)
+;; shift-select is standard in OS X inputs
+(setq shift-select-mode t)
 
 ;;;; Normalize key bindings with Mac OS X system ones
 
