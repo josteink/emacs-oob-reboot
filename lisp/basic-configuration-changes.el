@@ -14,3 +14,7 @@
 
 ;; Typed text will replace a highlighted region
 (delete-selection-mode 1)
+
+;; By default, backspace on Emacs turns a tab character into a set of spaces
+;; & deletes one. This sets backspace to delete 1 character instead of 1 column.
+(global-set-key (kbd "DEL") 'backward-delete-char)
