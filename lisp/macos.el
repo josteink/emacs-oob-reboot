@@ -34,7 +34,7 @@
 ;; undo-tree-mode aliased to command+z/shift+command+z
 ;; (require 'undo-tree)
 ;; (global-undo-tree-mode 1)
-;; (global-set-key (kbd "s-z") 'undo)           
+;; (global-set-key (kbd "s-z") 'undo)
 ;; (global-set-key (kbd "s-Z") 'undo-tree-redo)
 
 ;; the fantastic undo-tree-visualize on C-s-z
@@ -114,7 +114,7 @@
 ;;      (dolist (binding (list (kbd "M-<up>") (kbd "M-<down>") (kbd "C-M-<left>") (kbd "C-M-<right>")))
 ;;        (define-key paredit-mode-map binding nil))
 
-;;      ;; not just in lisp mode(s) 
+;;      ;; not just in lisp mode(s)
 ;;      (global-set-key (kbd "C-M-<left>") 'backward-sexp)
 ;;      (global-set-key (kbd "C-M-<right>") 'forward-sexp)
 
@@ -137,5 +137,5 @@
 ;; ... add shift to eval last defun (i.e. top level form)
 (define-key emacs-lisp-mode-map (kbd "<S-s-return>") 'eval-defun)
 
-;; ... add meta to eval entire buffer 
+;; ... add meta to eval entire buffer
 (define-key emacs-lisp-mode-map (kbd "<M-S-s-return>") 'eval-last-psexp)

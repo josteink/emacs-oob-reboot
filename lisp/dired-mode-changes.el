@@ -1,11 +1,7 @@
-
 (require 'dired)
 
-;; move cursor to beginning of filename when that makes sense
+;; Move cursor to beginning of filename when that makes sense
 (setq wdired-use-dired-vertical-movement 'sometimes)
 
-;; default is isearch -everything-, but usually you want to find a file.
+;; Default is isearch -everything-, but usually you want to find a file.
 (define-key dired-mode-map (kbd "C-s") #'dired-isearch-filenames)
-
-
-

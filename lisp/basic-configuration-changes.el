@@ -12,7 +12,6 @@
 
 (define-key global-map [remap list-buffers] 'ibuffer)
 
-
 ;; Allow 20MB of memory (instead of 0.76MB default) before calling
 ;; garbage collection. This means GC runs less often, which speeds
 ;; up some operations
