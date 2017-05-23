@@ -21,3 +21,6 @@
 ;; Typed text will replace a highlighted region
 (delete-selection-mode 1)
 
+;; Enable `downcase-region' and `upcase-region'
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
