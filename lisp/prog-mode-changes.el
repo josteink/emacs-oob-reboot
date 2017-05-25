@@ -15,3 +15,5 @@
 (add-hook 'prog-mode-hook (lambda ()
                             (show-paren-mode 1)
                             (show-paren-style 'mixed)))
+(add-hook 'prog-mode-hook (lambda ()
+                            (electric-pair-mode 1)))
