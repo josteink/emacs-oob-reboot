@@ -11,3 +11,7 @@
                             (company-mode 1)))
 (add-hook 'prog-mode-hook (lambda ()
                             (linum-mode 1)))
+
+(add-hook 'prog-mode-hook (lambda ()
+                            (show-paren-mode 1)
+                            (show-paren-style 'mixed)))
