@@ -27,3 +27,7 @@
 ;; Enable `downcase-region' and `upcase-region'
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
+
+;; Enhanced M-x with ivy
+(global-set-key (kbd "M-x") 'counsel-M-x)
+(global-set-key (kbd "C-c M-x") 'execute-extended-command) ;; the old M-x
