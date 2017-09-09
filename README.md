@@ -1,53 +1,54 @@
-# emacs-oob-reboot
+# Emacs - out of the box - reboot
 
 This is a project which aims to revitalize Emacs by providing core-friendly changes for an improved out-of-the-box experience.
 
 **You can help, and you don't need to know a single bit of C!** But how? Read one!
 
-# background
+# Background
 
-For Emacs to remain healthy sustainable for another 40+ years, we need to keep a critical mass of users and developers. To ensure this, we need to attract new users.
+For Emacs to remain healthy sustainable for another 40+ years, I think we'll need to keep a critical mass of users and developers. How do we attract new users?
 
-"Everyone" in the Emacs-verse seems to agree Emacs is the world's most powerful editor, yet other editors are seeing much higher adaptation than Emacs.
+"Everyone" in the Emacs-verse seems to agree Emacs is the world's most powerful text-editor, yet these less powerful text-editors are seeing much higher adoption than Emacs.
 
-Emacs, despite all its power, does not impress out of the box. A user will need to know that:
+Emacs, despite all its power, doesn't impress out of the box.
 
-1. it can be customized, and
-2. find all these customization to turn it into a more productive environment.
+New users do not know:
 
-While this isn't a problem for "senior" Emacs-users which are already customized left and right, this probably hinders adaptation by new users.
+1. It can be extensively customized.
+2. Where to find all packages and customization to turn it into a more productive environment.
 
-After a brief discussion with [phillord](https://github.com/phillord/) and other's on #Emacs on Freenode, we agreed that to better attract new user, Emacs could benefit from an improved out of the box experience.
+While this isn't a problem for "senior" Emacs-users which are already customized left and right, this probably hinders adoption by new users.
 
-# the "historical" response
+After a brief discussion with [phillord](https://github.com/phillord/) and others on #Emacs on Freenode, we felt that to  attract new users, Emacs would benefit from an improved out of the box experience.
 
-The standard reply to this issue has long been that it's *good* for a user to go through such a process, that a user *should* in fact do so, so they can find out how they can make *their Emacs* more productive *for them*. And if a user can't be bothered to do that, he probably won't "get" Emacs anyway, so no loss to us.
+# The "historical" response
 
-But is this really a productive attitude?
+The standard response to this issue has long been that it's *good* for a user to go through such a process, that a user *should* in fact learn the hard way, so they can find out how they can make *their* Emacs more productive *for them*. And if a user can't be bothered to do that, she probably won't "get" Emacs anyway, so no loss.
 
-Looking at pretty much all other editors out which are seeing increased adaptation, they have a few things in common:
+I think it's about time we say this isn't a productive attitude.
 
-* A polished look and feel,  out of the box
-* A reasonable and useful set of default settings, out of the box
-* Core features and packages installed, out of the box
+Looking at pretty much all other editors out which are seeing increased adoption, they have a few things in common out the box:
 
-Seemingly the default "out of the box"-configuration seems to matter.
+* A polished look and feel.
+* A reasonable and useful set of default settings.
+* Core features and packages installed.
+* Well supported third party package system.
 
-# the goal and the means
+Default "out of the box"-experience matters.
 
-Basically, in 2017, the best the 1995 has to offer does *not* cut it as a default-experience. It's time we make some improvements.
+# The goal and the means
 
-The aim for this project is *not* to mimick a big "starter"-kit like [prelude](https://github.com/bbatsov/prelude), but instead try to improve the out of the box experience by making small, core-friendly changes, so that these changes have a chance to be merged back mainline.
+Basically, in 2017, the best the 1977 has to offer does *not* cut it as a default-experience. It's time we make some improvements.
 
-Such changes may for instance consist of:
+The aim for this project is *not* to mimick a big "starter"-kit like [prelude](https://github.com/bbatsov/prelude), but instead try to improve the out of the box experience by making small, core-friendly changes, so that these changes have a chance to be merged back.
 
-* new values for existing `defconst`, `defvar` and `setq`-statements
-* by default installing/bundling packages from ELPA
-* useful default-behaviours implemented through default mode-hooks
-* any combination of those
-* etc
+Some examples:
 
-# ways to help this project
+* New values for existing `defconst`, `defvar` and `setq`-statements
+* Default installed packages from ELPA and MELPA
+* Useful default-behaviours implemented through mode-hooks
+
+# Ways to help this project
 
 There are numerous ways you can help this project:
 
@@ -58,11 +59,9 @@ There are numerous ways you can help this project:
 
 Feel free to sign up as a contributor. [A special issue has been reserved for this very purpose.](https://github.com/josteink/emacs-oob-reboot/issues/1)
 
-# evaluating the current setup
+# Evaluating the current setup
 
-To evaluate the current setup you'll need to launch Emacs in a special way.
-
-Do so by issuing the following commands:
+To evaluate the current setup you'll need to launch Emacs in the following way.
 
 ````bash
 git clone https://github.com/josteink/emacs-oob-reboot
@@ -70,18 +69,14 @@ cd emacs-oob-reboot
 emacs -Q -l ./init.el
 ````
 
-You are now running our "improved" Emacs default experience.
+# Submitting improvements
 
-# submitting improvements
-
-Submitting improvements should be easy:
-
-1. Go scan *your* `.emacs`-file and find your essential customizations which you think should be a default.
+1. Study *your* Emacs config and find your essential customizations which you think should be default.
 2. Fork this repo.
 3. Follow the existing conventions, and add your changes. See
    [CONTRIBUTING.org](./CONTRIBUTING.org).
 4. Submit a PR. In this PR you should try to make each customization/improvement an atomic commit, and maybe even a PR on its own. This will assist review.
 
-# anything else?
+# Anything else?
 
 Did I forget anything? File an issue, file a PR. It's github. You know the rules :)
