@@ -2,7 +2,7 @@
 
 This is a project which aims to revitalize Emacs by providing core-friendly changes for an improved out-of-the-box experience.
 
-**You can help, and you don't need to know a single bit of C!** But how? Read one!
+**You can help, and you don't need to know a single bit of C!** But how? Read on!
 
 # Background
 
