@@ -30,8 +30,8 @@ Isn't it about time we say this isn't productive?
 Looking at pretty much all other popular editors, they have a few things in common out the box:
 
 * A polished look and feel.
-* A reasonable and useful set of default settings.
-* Core features and packages installed.
+* A reasonable set of defaults.
+* Modern core features and packages installed.
 * Well supported third party package system.
 
 Default "out of the box" experience matters.
