@@ -29,5 +29,9 @@
 (put 'upcase-region 'disabled nil)
 
 ;; Enhanced M-x with ivy
+(when (not (package-installed-p 'ivy))
+  (package-initialize)
+  (package-install 'ivy))
+(require 'counsel)
 (global-set-key (kbd "M-x") 'counsel-M-x)
 (global-set-key (kbd "C-c M-x") 'execute-extended-command) ;; the old M-x
